@@ -46,7 +46,7 @@ const IconGen = (desc) => {
     case 'clear':
     addIcon(desc)
     break;
-    case 'thunderstom':
+    case 'thunderstorm':
     addIcon(desc)
     break;
     default:
