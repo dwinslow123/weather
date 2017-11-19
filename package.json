@@ -1,0 +1,27 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "Following a guide, created a function app that tells you weather. Created using the Free Code Camp Weather API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "deploy": "npm run build&&gh-pages -d build",
+    "build": "npm run build:webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwinslow123/weather.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dwinslow123/weather/issues"
+  },
+  "homepage": "https://dwinslow123.github.io/weather",
+  "devDependencies": {
+    "gh-pages": "^1.1.0",
+    "webpack": "^3.8.1"
+  }
+}
